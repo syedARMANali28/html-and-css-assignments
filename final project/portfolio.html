@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header/NavBar */
+        .navbar {
+            background-color: #5fa9d9;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .portfolio-container {
+            padding: 20px;
+            max-width: 80%;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .diagonal-text {
+            position: absolute;
+            top: 0;
+            left: -60px;
+            transform: rotate(-45deg);
+            font-size: 24px;
+            font-weight: bold;
+            color: gray;
+            opacity: 0.7;
+        }
+
+        .portfolio-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item img {
+            width: 300px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .portfolio-item .description {
+            flex-grow: 1;
+        }
+
+        .portfolio-item .description h3 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .portfolio-item .description p {
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #5fa9d9;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">pana cloud</div>
+        <div>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/homepage.html">HOME</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/about.html#">ABOUT</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/portfolio.html">PORTFOLIO</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/contact.html#">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Page Content -->
+    <div class="portfolio-container">
+
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item">
+            <img src="Screenshot 2024-11-22 at 12.34.57.jpeg" alt="Portfolio Image 1">
+            <div class="description">
+                <h3>Why it’s special:</h3>
+                <p>Robby incorporates an interactive experience into his portfolio.</p>
+                <h3>What it’s about:</h3>
+                <p>
+                    If you associate portfolios with a dry list of facts, this portfolio might surprise you.
+                    Robby found a novel way of displaying what was otherwise dry information — he laid out his 
+                    portfolio site as a videogame that the visitor can actually play. This incredibly fun 
+                    interactive design portfolio will make you scroll...
+                </p>
+            </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item">
+            <img src="Screenshot 2024-11-22 at 12.34.57.jpeg" alt="Portfolio Image 2">
+            <div class="description">
+                <h3>Why it’s special:</h3>
+                <p>Robby incorporates an interactive experience into his portfolio.</p>
+                <h3>What it’s about:</h3>
+                <p>
+                    If you associate portfolios with a dry list of facts, this portfolio might surprise you.
+                    Robby found a novel way of displaying what was otherwise dry information — he laid out his 
+                    portfolio site as a videogame that the visitor can actually play. This incredibly fun 
+                    interactive design portfolio will make you scroll...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Copyright © 2019. All rights reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Only</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header/NavBar */
+        .navbar {
+            background-color: #5fa9d9;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">pana cloud</div>
+        <div>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/homepage.html">HOME</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/about.html#">ABOUT</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/portfolio.html">PORTFOLIO</a>
+            <a href="file:///Users/mic/Documents/IT%20CODING/html%20and%20css%2010/final%20project/contact.html#">CONTACT</a>
+
+        </div>
+    </div>
+
+<br><br>
+        <fieldset style="width: 500px;">
+            <legend>Your details:</legend>
+    <!-- name -->
+       <div>
+        <form>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname"  placeholder="xyz" required>
+       </div>
+      
+       <br><br>
+    
+          <!-- email -->
+          <div>
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email"  placeholder="abc@gmail.com" required>
+       </div>
+    </fieldset>
+       <br><br>
+    <fieldset style="width: 500px;">
+        <legend>Your reviews:</legend>
+    <!-- yes no maybe -->
+       <div>
+        <label for="YES">YES</label>
+        <input type="radio" name="select" id="YES">
+    
+        <label for="NO">NO</label>
+        <input type="radio" name="select" id="NO">
+    
+        <label for="MAYBE">MAYBE</label>
+        <input type="radio" name="select" id="MAYBE">
+       </div>
+      
+       <br><br>
+    
+    <!-- options -->
+    <div>
+            <label for="us">how did u hear about us?</label>
+            <select id="us" name="us">
+                <option value="google">google</option>
+                <option value="youtube">youtube</option>
+                <option value="chrome">chrome</option>
+                <option value="facebook">facebook</option>
+    
+            </select>
+    </div>
+    
+    <br><br>
+    <!-- comment box -->
+    <div>
+        <p>Comments:</p>
+        <textarea>
+        </textarea>
+    </div>
+    <div>
+        <label for="box">sign me up for email updates</label>
+        <input type="checkbox" id="box" name="box"  placeholder="abc@gmail.com" required>
+    </div>
+    
+    <!-- submit -->
+    <div>
+        <input type="submit">
+    </div>
+    </fieldset>
+        </form>
+    </body>
+    </html>
+
+
+
+</body>
+</html>
